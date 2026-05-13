@@ -1,0 +1,18 @@
+{
+  "name": "soulbud/booking-system",
+  "description": "SOULBUD.CO Photography & Videography Booking System",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Soulbud\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
